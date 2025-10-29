@@ -1,0 +1,43 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h5 {
+  font-weight: 700;
+}
+
+footer {
+  font-size: 0.95rem;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 100;
+  transition: transform 0.2s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1ebe57;
+  color: white;
+}
+.whatsapp-float i {
+  margin-top: 14px;
+  color: white;
+}
